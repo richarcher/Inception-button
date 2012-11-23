@@ -1,0 +1,20 @@
+{
+  "name": "Inception Button",
+  "version": "0.1",
+  "description": "PAAAAAAAAAAAAAARP",
+  "icons": { "16": "icon16.png",
+             "48": "icon48.png",
+            "128": "icon128.png" },
+  "background": { "scripts": ["background.js", "paaaarp.js"] },
+  "permissions": [
+    "<all_urls>"
+  ],
+  "browser_action": {
+    "default_title": "PAAAAAAAAAAAAAARP",
+    "default_icon": "icon16.png"
+  },
+  "web_accessible_resources": [
+    "inception.mp3"
+  ],
+  "manifest_version": 2
+}
